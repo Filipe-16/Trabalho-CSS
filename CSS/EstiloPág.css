@@ -1,0 +1,150 @@
+/*Começo Da Segunda Parte*/
+
+@media screen and (min-width:481px){
+    *{
+    box-sizing: border-box;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+      
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "main",
+        "footer";
+    }
+
+    /*Header*/
+
+    header{
+        grid-area: header;
+        position: sticky;
+        top: 0;
+        text-align: center;
+        font-size: x-large;
+        background: linear-gradient(90deg, red 0% 25%, black 25% 50%, green 50% 75%, blue 75% 100%);   
+    }
+
+    .LogoTipo img{
+        height: 10%;
+        width: 15%;
+    }
+
+    /*Nav*/
+
+    .Páginas{
+        text-align: center;
+        font-size: xx-large;  
+        word-spacing: 235px;
+        z-index: 1;
+    }
+
+    #ÁreaPrincipal{
+        color: red;
+    }
+
+    #Pág-1º{
+        color: black;
+    }
+
+    #Pág-2º{
+        color: green;
+    }
+
+    #Pág-3º{
+        color: blue;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    /*Main*/
+
+    .Introdução{
+        text-align: center;
+    }
+
+    .Título{
+        font-size: xxx-large;  
+        margin: auto;
+    }
+
+    .Introdução img{
+        height: 20%;
+        width: 38%;
+    }
+
+    .Descrição{
+        font-size: 160%;
+    }
+
+    .Informações{
+        display: block;
+        color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .Figura{
+        margin-bottom: 2vw;
+        border-radius: 3vw;
+        background-color: blue;
+        width: 24%;
+    }
+
+    .Informações img{
+        height: 53.5%;
+        width: 66%;
+        margin-top: 4.5%;
+        margin-left: 16%;
+    }
+
+    .Figura .Informação{
+        color: red;
+        margin-left: 40%;
+        font-size: x-large;
+    }
+
+    .Figura .Resumo{
+        text-align: center;
+    }
+
+    /*Footer*/
+
+    footer{
+        grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background-color: green;
+    }
+
+    footer #Rodapé{
+        height: 45%;
+        width: 50%;
+    }
+
+    .DadosContato{
+        position: relative;
+    }
+    
+    .DadosContato p{
+        position: absolute;
+        top: 2%;
+        right: 49%;
+        font-size: 75%;
+    }
+}
+
+/*Fim Da Segunda Parte*/
