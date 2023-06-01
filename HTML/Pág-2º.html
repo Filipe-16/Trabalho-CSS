@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/EstiloPág2.css">
+    <link rel="icon" type="image/ico" href="../img/Ícone.webp">
+    <title>Emprego</title>
+</head>
+<body>
+    <header>
+        <div class="LogoTipo">
+            <img src="../img/LogoTipo.webp" alt="Yu Yu">
+        </div>
+    </header>
+    <nav>
+        <div class="Páginas">
+            <a href="../ÁreaPrincipal.html" id="ÁreaPrincipal">Introdução</a> 
+            <a href="Pág-1º.html" id="Pág-1º">Personagens</a>  
+            <a href="Pág-2º.html" id="Pág-2º">Emprego</a>  
+            <a href="Pág-3º.html" id="Pág-3º">História</a> 
+        </div>
+    </nav>
+    <main>
+        <div class="Introdução"><br>
+            <p class="Título">Emprego</p><br>
+            <p class="Descrição">Você foi selecionado pelo Mundo Espiritual para defender o Mundo dos Homens de ameças sobrenaturais.<br>
+                Por favor, preencha o formulário abaixo e torne-se um Detetive Espiritual.</p>
+        </div>
+        <form action="Pág-2º.html">
+            <fieldset class="formulário">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Digite seu email" required>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" placeholder="Digite sua idade" required>
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" minlength="10" placeholder="Digite seu telefone" required>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" minlength="11" placeholder="Digite sua senha" required>
+                <label for="endereço">Endereço:</label>
+                <input type="text" id="endereço" placeholder="Digite seu endereço" required>
+                <select name="mundo" id="mundo">
+                    <option value="">Selecione uma opção</option>
+                    <option value="1">Mundo dos Homens (Ningekai)</option>
+                    <option value="2">Mundo Espiritual (Reikai)</option>
+                    <option value="3">Mundo das Trevas (Makai)</option>
+                </select>
+                <label for="confirmar"><input type="checkbox" id="confirmar">Não sou um robô</label>                           
+                <input type="submit" id="enviar">
+            </fieldset>
+        </form>
+    </main>
+        <footer>
+            <div class="DadosContato">
+                <img src="../img/Rodapé.PNG" id="Rodapé" alt="Vinheta">               
+                <p>
+                    E-mail: Yusuke@YuYuHakusho.gmail <br> Endereço: Mundo Espiritual <br> Telefone: (53) 8142-0494<br>
+                    <img src="../img/Instagram.png" alt="Instagram">
+                    <img src="../img/Twitter.png" alt="Twitter">
+                </p>
+            </div>
+        </footer>
+</body>
+</html>
